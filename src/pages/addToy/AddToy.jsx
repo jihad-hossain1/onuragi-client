@@ -31,7 +31,7 @@ const AddToy = () => {
     };
     console.log(allProducts);
 
-    fetch("http://localhost:3000/usertoy", {
+    fetch("http://localhost:3000/dashboard", {
       method: "POST",
       headers: {
         "content-type": "application/json",

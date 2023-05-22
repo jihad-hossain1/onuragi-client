@@ -9,7 +9,7 @@ const AllToy = () => {
   const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3000/usertoy")
+    fetch("http://localhost:3000/dashboard")
       .then((res) => res.json())
       .then((data) => {
         setAllToys(data);
